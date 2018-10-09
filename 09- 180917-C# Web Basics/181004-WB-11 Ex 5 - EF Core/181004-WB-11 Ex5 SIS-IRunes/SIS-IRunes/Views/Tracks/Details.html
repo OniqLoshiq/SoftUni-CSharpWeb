@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>IRunes</h1>
+    <ul>
+        <li><a href="/Home/Index">Home</a></li>
+        <li><a href="/Albums/All">Albums</a></li>
+        <li><a href="/Users/Logout">Logout</a></li>
+    </ul>
+    <hr />
+    <iframe width="560" height="315" src="{{youtubeTrackUrl}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <h3>Name: {{trackName}}</h3>
+    <h3>Price: ${{trackPrice}}</h3>
+    <hr />
+    <a href="/Albums/Details?id={{albumId}}">Back to Album</a>
+    <hr />
+    <footer><strong>CopyRight &copy; Bat Sanity Design Studios. All rights reserved.</strong></footer>
+</body>
+</html>

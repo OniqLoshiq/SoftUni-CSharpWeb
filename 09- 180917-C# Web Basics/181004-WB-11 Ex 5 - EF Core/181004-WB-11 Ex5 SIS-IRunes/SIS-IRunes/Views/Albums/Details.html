@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>IRunes</h1>
+    <ul>
+        <li><a href="/Home/Index">Home</a></li>
+        <li><a href="/Albums/All">Albums</a></li>
+        <li><a href="/Users/Logout">Logout</a></li>
+    </ul>
+    <hr />
+    <img src="{{albumCoverUrl}}" alt="{{albumNamePictureText}}" />
+    <h3>Name: {{albumName}}</h3>
+    <h3>Price: ${{albumPrice}}</h3>
+    <br />
+    <br />
+    <h3>Tracks</h3>
+    <hr />
+    <a href="/Tracks/Create?albumId={{albumId}}">Create Track</a>
+    <hr />
+    {{trackList}}
+    <hr />
+    <a href="/Albums/All">Back to All</a>
+    <hr />
+    <footer><strong>CopyRight &copy; Bat Sanity Design Studios. All rights reserved.</strong></footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿.navbar{
+    background-color:seagreen
+}
+
+.jumbotron {
+    background-color: seagreen;
+    color: white;
+}
+
+.border-layout {
+    border-top: 2px solid seagreen;
+    padding: 0px;
+}
+
+.jumbotron span, h3 a{
+    color: orange
+}
+
+.title-text{
+    color:seagreen
+}
+
+.btn {
+    background-color: seagreen
+}
+
+.my_img{
+    width:100%;
+    height:auto
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }

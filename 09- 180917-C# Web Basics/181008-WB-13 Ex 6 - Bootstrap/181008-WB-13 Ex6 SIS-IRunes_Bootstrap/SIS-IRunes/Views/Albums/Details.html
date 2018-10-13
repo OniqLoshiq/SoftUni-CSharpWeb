@@ -1,0 +1,25 @@
+﻿<div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+            <img src="{{albumCoverUrl}}" class="img-fluid img-thumbnail my_img" alt="{{albumNamePictureText}}" />
+            <h3 class="text-center">Album Name: {{albumName}}</h3>
+            <h3 class="text-center">Album Price: ${{albumPrice}}</h3>
+        </div>
+        <div class="col-4 offset-1">
+            <h3>Tracks</h3>
+            {{trackList}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <div class="row justify-content-between">
+                <div class="col-6 text-left">
+                    <a href="/Tracks/Create?albumId={{albumId}}" class="btn text-white">Create Track</a>
+                </div>
+                <div class="col-6 text-right">
+                    <a href="/Albums/All" class="btn text-white ">Back to All</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+﻿<div class="container-fluid">
+    <h4 class="text-center">Track Name: {{trackName}}</h4>
+    <h4 class="text-center">Track Price: ${{trackPrice}}</h4>
+    <hr class="border-layout col-8" />
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div class="iframe-container">
+                <iframe width="560" height="315" src="{{youtubeTrackUrl}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <hr class="border-layout col-8" />
+    <div class="row justify-content-center">
+        <a href="/Albums/Details?id={{albumId}}" class="btn text-white">Back to Album</a>
+    </div>
+</div>

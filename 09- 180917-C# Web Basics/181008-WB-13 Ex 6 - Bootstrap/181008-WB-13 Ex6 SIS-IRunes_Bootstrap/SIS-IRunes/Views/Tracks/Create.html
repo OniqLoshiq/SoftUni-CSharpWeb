@@ -1,0 +1,34 @@
+﻿<div class="container-fliud">
+    <h1 class="title-text text-center">Create Track</h1>
+    <hr class="border-layout col-8" />
+    <form action="/Tracks/Create?albumId={{albumId}}" method="post">
+        <div class="row justify-content-center">
+            <div class="form-group col-8">
+                <label for="trackName">Name</label>
+                <input type="text" class="form-control" name="trackName" aria-describedby="trackName" placeholder="Name...">
+            </div>
+        </div>
+        <div class="form-row justify-content-center">
+            <div class="form-group col-8">
+                <div class="row">
+                    <div class="form-group col-5">
+                        <label for="linkUrl">Link</label>
+                        <input type="text" class="form-control" name="linkUrl" placeholder="Link...">
+                    </div>
+                    <div class="form-group col-5 offset-2">
+                        <label for="trackPrice">Price</label>
+                        <input type="text" class="form-control" name="trackPrice" placeholder="Price...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 text-center">
+                <button type="submit" class="btn text-white">Create</button>
+            </div>
+            <div class="col-4 text-center">
+                <a href="/Albums/Details?id={{albumId}}" class="btn text-white">Back to Album</a>
+            </div>
+        </div>
+    </form>
+</div>

@@ -8,7 +8,7 @@ Please follow the listed steps to evaluate the whole project:
 --3: A middleware is implemented for seeding roles and seeding a first admin user 
 (you can create as much as you want users with role "user" from the running app)
 
---3.1: The admin username is "admin" with password "123" => use it to log to the app and create events
+--3.1: The admin username is "admin" with password "12345" => use it to log to the app and create events
 
 --4: So several restrictions when creating an event:
 

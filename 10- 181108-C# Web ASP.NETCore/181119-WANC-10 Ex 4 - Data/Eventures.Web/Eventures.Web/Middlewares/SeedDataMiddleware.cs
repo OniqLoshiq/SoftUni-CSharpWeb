@@ -17,7 +17,7 @@ namespace Eventures.Web.Middlewares
 
         private const string AdminUsername = "admin";
 
-        private const string AdminPassword = "123";
+        private const string AdminPassword = "12345";
 
         public SeedDataMiddleware(RequestDelegate next)
         {

@@ -1,0 +1,1088 @@
+2018-11-26T23:38:24.6351093+02:00 0HLIJSTV91KQQ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/   (ca22a1cb)
+2018-11-26T23:38:25.0799224+02:00 0HLIJSTV91KQQ:00000001 [WRN] No type was specified for the decimal column '"TicketPrice"' on entity type '"Event"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-11-26T23:38:25.1222842+02:00 0HLIJSTV91KQQ:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:26.4724255+02:00 0HLIJSTV91KQQ:00000001 [INF] Executed DbCommand ("48"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:26.5286621+02:00 0HLIJSTV91KQQ:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:26.5657651+02:00 0HLIJSTV91KQQ:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:26.5967392+02:00 0HLIJSTV91KQQ:00000001 [INF] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2018-11-26T23:38:26.6781177+02:00 0HLIJSTV91KQQ:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" (a44c0341)
+2018-11-26T23:38:26.6900309+02:00 0HLIJSTV91KQQ:00000001 [INF] Executing action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-26T23:38:26.6940748+02:00 0HLIJSTV91KQQ:00000001 [INF] Executed action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.3515ms. (50a9e262)
+2018-11-26T23:38:28.5552541+02:00 0HLIJSTV91KQQ:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-11-26T23:38:29.0948317+02:00 0HLIJSTV91KQQ:00000001 [INF] Executed ViewResult - view "Index" executed in 2391.091ms. (f66409e9)
+2018-11-26T23:38:29.0952205+02:00 0HLIJSTV91KQQ:00000001 [INF] Executed action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" in 2416.8011ms (afa2e885)
+2018-11-26T23:38:29.1047576+02:00 0HLIJSTV91KQQ:00000001 [INF] Request finished in 4474.8143ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-26T23:38:29.1528247+02:00 0HLIJSTV91KQR:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/site.css   (ca22a1cb)
+2018-11-26T23:38:29.1540037+02:00 0HLIJSTV91KQQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2018-11-26T23:38:29.1560788+02:00 0HLIJSTV91KQQ:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:29.1560788+02:00 0HLIJSTV91KQR:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:29.1632175+02:00 0HLIJSTV91KQQ:00000002 [INF] Executed DbCommand ("6"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.1674329+02:00 0HLIJSTV91KQQ:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.1716330+02:00 0HLIJSTV91KQQ:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:29.1717967+02:00 0HLIJSTV91KQS:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/style.css   (ca22a1cb)
+2018-11-26T23:38:29.1728680+02:00 0HLIJSTV91KQS:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:29.1758005+02:00 0HLIJSTV91KQT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/jquery/dist/jquery.js   (ca22a1cb)
+2018-11-26T23:38:29.1767409+02:00 0HLIJSTV91KQT:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:29.1780093+02:00 0HLIJSTV91KQS:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.1785888+02:00 0HLIJSTV91KQR:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.1789395+02:00 0HLIJSTV91KQV:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2018-11-26T23:38:29.1797405+02:00 0HLIJSTV91KQV:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:29.1834508+02:00 0HLIJSTV91KQU:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2018-11-26T23:38:29.1841992+02:00 0HLIJSTV91KQU:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:29.1860282+02:00 0HLIJSTV91KQQ:00000002 [INF] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified (f1f8d725)
+2018-11-26T23:38:29.1870367+02:00 0HLIJSTV91KQT:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.1888803+02:00 0HLIJSTV91KQR:00000001 [INF] Executed DbCommand ("9"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.1956591+02:00 0HLIJSTV91KQT:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.1981677+02:00 0HLIJSTV91KQV:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.1994434+02:00 0HLIJSTV91KQR:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:29.1999754+02:00 0HLIJSTV91KQR:00000001 [INF] The file "/css/site.css" was not modified (f1f8d725)
+2018-11-26T23:38:29.2001003+02:00 0HLIJSTV91KQQ:00000002 [INF] Request finished in 46.1208ms 304 text/css (791a596a)
+2018-11-26T23:38:29.2001645+02:00 0HLIJSTV91KQR:00000001 [INF] Request finished in 47.4786ms 304 text/css (791a596a)
+2018-11-26T23:38:29.2004437+02:00 0HLIJSTV91KQT:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:29.2011177+02:00 0HLIJSTV91KQT:00000001 [INF] The file "/lib/jquery/dist/jquery.js" was not modified (f1f8d725)
+2018-11-26T23:38:29.2012250+02:00 0HLIJSTV91KQT:00000001 [INF] Request finished in 25.6605ms 304 application/javascript (791a596a)
+2018-11-26T23:38:29.2126446+02:00 0HLIJSTV91KQV:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.2128307+02:00 0HLIJSTV91KQS:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.2141359+02:00 0HLIJSTV91KQV:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:29.2142941+02:00 0HLIJSTV91KQS:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:29.2145298+02:00 0HLIJSTV91KQV:00000001 [INF] The file "/js/site.js" was not modified (f1f8d725)
+2018-11-26T23:38:29.2145585+02:00 0HLIJSTV91KQS:00000001 [INF] The file "/css/style.css" was not modified (f1f8d725)
+2018-11-26T23:38:29.2146705+02:00 0HLIJSTV91KQS:00000001 [INF] Request finished in 42.9853ms 304 text/css (791a596a)
+2018-11-26T23:38:29.2146705+02:00 0HLIJSTV91KQV:00000001 [INF] Request finished in 35.7814ms 304 application/javascript (791a596a)
+2018-11-26T23:38:29.2202407+02:00 0HLIJSTV91KQU:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.2255227+02:00 0HLIJSTV91KQU:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.2279637+02:00 0HLIJSTV91KQU:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:29.2288464+02:00 0HLIJSTV91KQU:00000001 [INF] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified (f1f8d725)
+2018-11-26T23:38:29.2290380+02:00 0HLIJSTV91KQU:00000001 [INF] Request finished in 45.7915ms 304 application/javascript (791a596a)
+2018-11-26T23:38:29.3370127+02:00 0HLIJSTV91KQT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/favicon.ico   (ca22a1cb)
+2018-11-26T23:38:29.3401598+02:00 0HLIJSTV91KQT:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:29.3419834+02:00 0HLIJSTV91KQT:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.3434737+02:00 0HLIJSTV91KQT:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:29.3446845+02:00 0HLIJSTV91KQT:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:29.3616654+02:00 0HLIJSTV91KQT:00000002 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\Doncho Vasilev\Desktop\zDokka-W\10- 181108-C# Web ASP.NETCore\181122-WANC-12 Ex 5 - Identity\Eventures.Web\Eventures.Web\wwwroot\favicon.ico"' (27b0a520)
+2018-11-26T23:38:29.3789503+02:00 0HLIJSTV91KQT:00000002 [INF] Request finished in 41.911ms 200 image/x-icon (791a596a)
+2018-11-26T23:38:47.4113469+02:00 0HLIJSTV91KQQ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44391/Account/Login   (ca22a1cb)
+2018-11-26T23:38:47.4119384+02:00 0HLIJSTV91KQQ:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:47.4128492+02:00 0HLIJSTV91KQQ:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:47.4136960+02:00 0HLIJSTV91KQQ:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:47.4142990+02:00 0HLIJSTV91KQQ:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:47.4152544+02:00 0HLIJSTV91KQQ:00000003 [INF] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2018-11-26T23:38:47.4231540+02:00 0HLIJSTV91KQQ:00000003 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" (a44c0341)
+2018-11-26T23:38:47.4253159+02:00 0HLIJSTV91KQQ:00000003 [INF] Executing action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-26T23:38:47.4256084+02:00 0HLIJSTV91KQQ:00000003 [INF] Executed action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1847ms. (50a9e262)
+2018-11-26T23:38:47.6838697+02:00 0HLIJSTV91KQQ:00000003 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2018-11-26T23:38:47.7354286+02:00 0HLIJSTV91KQQ:00000003 [INF] Executed ViewResult - view "Login" executed in 309.464ms. (f66409e9)
+2018-11-26T23:38:47.7355886+02:00 0HLIJSTV91KQQ:00000003 [INF] Executed action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" in 312.3075ms (afa2e885)
+2018-11-26T23:38:47.7357280+02:00 0HLIJSTV91KQQ:00000003 [INF] Request finished in 324.4345ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-26T23:38:51.0714838+02:00 0HLIJSTV91KQR:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44391/Account/Login application/x-www-form-urlencoded 229 (ca22a1cb)
+2018-11-26T23:38:51.0722463+02:00 0HLIJSTV91KQR:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:51.0731615+02:00 0HLIJSTV91KQR:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:51.0739959+02:00 0HLIJSTV91KQR:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:51.0746721+02:00 0HLIJSTV91KQR:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:51.0750740+02:00 0HLIJSTV91KQR:00000002 [INF] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed" (48071232)
+2018-11-26T23:38:51.0993131+02:00 0HLIJSTV91KQR:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\"}". Executing action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" (a44c0341)
+2018-11-26T23:38:51.1537356+02:00 0HLIJSTV91KQR:00000002 [INF] Executing action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" with arguments (["Eventures.Web.ViewModels.LoginUserViewModel"]) - Validation state: Valid (4e3479ed)
+2018-11-26T23:38:51.1732850+02:00 0HLIJSTV91KQR:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UCN], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2018-11-26T23:38:51.2921624+02:00 0HLIJSTV91KQR:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2018-11-26T23:38:51.3301515+02:00 0HLIJSTV91KQR:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2018-11-26T23:38:51.3363139+02:00 0HLIJSTV91KQR:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:51.3491470+02:00 0HLIJSTV91KQR:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2018-11-26T23:38:51.3608092+02:00 0HLIJSTV91KQR:00000002 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2018-11-26T23:38:51.3669268+02:00 0HLIJSTV91KQR:00000002 [INF] Executed action method "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 213.0363ms. (50a9e262)
+2018-11-26T23:38:51.3799305+02:00 0HLIJSTV91KQR:00000002 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2018-11-26T23:38:51.3824468+02:00 0HLIJSTV91KQR:00000002 [INF] Executed action "Eventures.Web.Controllers.AccountController.Login (Eventures.Web)" in 283.0503ms (afa2e885)
+2018-11-26T23:38:51.3848058+02:00 0HLIJSTV91KQR:00000002 [INF] Request finished in 313.3291ms 302  (791a596a)
+2018-11-26T23:38:51.3990672+02:00 0HLIJSTV91KQS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/   (ca22a1cb)
+2018-11-26T23:38:51.3996116+02:00 0HLIJSTV91KQS:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:51.4004665+02:00 0HLIJSTV91KQS:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:51.4013227+02:00 0HLIJSTV91KQS:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:51.4019094+02:00 0HLIJSTV91KQS:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:51.4100156+02:00 0HLIJSTV91KQS:00000002 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" (a44c0341)
+2018-11-26T23:38:51.4102157+02:00 0HLIJSTV91KQS:00000002 [INF] Executing action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-26T23:38:51.4103282+02:00 0HLIJSTV91KQS:00000002 [INF] Executed action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0248ms. (50a9e262)
+2018-11-26T23:38:51.4105087+02:00 0HLIJSTV91KQS:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-11-26T23:38:51.4158733+02:00 0HLIJSTV91KQS:00000002 [INF] Executed ViewResult - view "Index" executed in 5.423ms. (f66409e9)
+2018-11-26T23:38:51.4160285+02:00 0HLIJSTV91KQS:00000002 [INF] Executed action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" in 5.9144ms (afa2e885)
+2018-11-26T23:38:51.4161581+02:00 0HLIJSTV91KQS:00000002 [INF] Request finished in 17.1147ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-26T23:38:56.2836128+02:00 0HLIJSTV91KQV:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/Events/UserEvents   (ca22a1cb)
+2018-11-26T23:38:56.2841273+02:00 0HLIJSTV91KQV:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:56.2851309+02:00 0HLIJSTV91KQV:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:56.2860452+02:00 0HLIJSTV91KQV:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:56.2866581+02:00 0HLIJSTV91KQV:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:56.2878316+02:00 0HLIJSTV91KQV:00000002 [INF] Request finished in 4.2325ms 404  (791a596a)
+2018-11-26T23:38:59.4369968+02:00 0HLIJSTV91KQU:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/Events/All   (ca22a1cb)
+2018-11-26T23:38:59.4376763+02:00 0HLIJSTV91KQU:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:38:59.4387280+02:00 0HLIJSTV91KQU:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:59.4396111+02:00 0HLIJSTV91KQU:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:38:59.4401811+02:00 0HLIJSTV91KQU:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:38:59.4416467+02:00 0HLIJSTV91KQU:00000002 [INF] Route matched with "{action = \"All\", controller = \"Events\"}". Executing action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" (a44c0341)
+2018-11-26T23:38:59.4423964+02:00 0HLIJSTV91KQU:00000002 [INF] Executing action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-26T23:38:59.4555280+02:00 0HLIJSTV91KQU:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[End], [e].[Name], [e].[Place], [e].[Start], [e].[TicketPrice], [e].[TotalTickets]
+FROM [Events] AS [e]" (0723d8ff)
+2018-11-26T23:38:59.4794343+02:00 0HLIJSTV91KQU:00000002 [INF] Executed action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 36.9566ms. (50a9e262)
+2018-11-26T23:38:59.6381731+02:00 0HLIJSTV91KQU:00000002 [INF] Executing ViewResult, running view "All". (c83d0e25)
+2018-11-26T23:38:59.6445168+02:00 0HLIJSTV91KQU:00000002 [INF] Executed ViewResult - view "All" executed in 164.9512ms. (f66409e9)
+2018-11-26T23:38:59.6449432+02:00 0HLIJSTV91KQU:00000002 [INF] Executed action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" in 203.2003ms (afa2e885)
+2018-11-26T23:38:59.6451036+02:00 0HLIJSTV91KQU:00000002 [INF] Request finished in 208.1316ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-26T23:44:00.8577624+02:00 0HLIJSTV91KR0:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/Events/All   (ca22a1cb)
+2018-11-26T23:44:00.8583217+02:00 0HLIJSTV91KR0:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:44:00.8594499+02:00 0HLIJSTV91KR0:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:44:00.8605819+02:00 0HLIJSTV91KR0:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:44:00.8618341+02:00 0HLIJSTV91KR0:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:44:00.8639629+02:00 0HLIJSTV91KR0:00000001 [INF] Route matched with "{action = \"All\", controller = \"Events\"}". Executing action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" (a44c0341)
+2018-11-26T23:44:00.8641695+02:00 0HLIJSTV91KR0:00000001 [INF] Executing action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-26T23:44:00.8652160+02:00 0HLIJSTV91KR0:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[End], [e].[Name], [e].[Place], [e].[Start], [e].[TicketPrice], [e].[TotalTickets]
+FROM [Events] AS [e]" (0723d8ff)
+2018-11-26T23:44:00.8661261+02:00 0HLIJSTV91KR0:00000001 [INF] Executed action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.8474ms. (50a9e262)
+2018-11-26T23:44:00.8662633+02:00 0HLIJSTV91KR0:00000001 [INF] Executing ViewResult, running view "All". (c83d0e25)
+2018-11-26T23:44:01.0683868+02:00 0HLIJSTV91KR0:00000001 [INF] Executed ViewResult - view "All" executed in 202.0986ms. (f66409e9)
+2018-11-26T23:44:01.0685365+02:00 0HLIJSTV91KR0:00000001 [INF] Executed action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" in 204.4229ms (afa2e885)
+2018-11-26T23:44:01.0687131+02:00 0HLIJSTV91KR0:00000001 [INF] Request finished in 210.9943ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-26T23:54:38.4048226+02:00 0HLIJT71FO4DJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/   (ca22a1cb)
+2018-11-26T23:54:38.8968150+02:00 0HLIJT71FO4DJ:00000001 [WRN] No type was specified for the decimal column '"TicketPrice"' on entity type '"Event"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-11-26T23:54:38.9481392+02:00 0HLIJT71FO4DJ:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:54:39.8918610+02:00 0HLIJT71FO4DJ:00000001 [INF] Executed DbCommand ("17"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:54:39.9343768+02:00 0HLIJT71FO4DJ:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:54:39.9584161+02:00 0HLIJT71FO4DJ:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:54:40.0679382+02:00 0HLIJT71FO4DJ:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" (a44c0341)
+2018-11-26T23:54:40.0802538+02:00 0HLIJT71FO4DJ:00000001 [INF] Executing action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-26T23:54:40.0864120+02:00 0HLIJT71FO4DJ:00000001 [INF] Executed action method "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.0276ms. (50a9e262)
+2018-11-26T23:54:41.6216305+02:00 0HLIJT71FO4DJ:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2018-11-26T23:54:42.1414735+02:00 0HLIJT71FO4DJ:00000001 [INF] Executed ViewResult - view "Index" executed in 2045.5931ms. (f66409e9)
+2018-11-26T23:54:42.1418118+02:00 0HLIJT71FO4DJ:00000001 [INF] Executed action "Eventures.Web.Controllers.HomeController.Index (Eventures.Web)" in 2073.495ms (afa2e885)
+2018-11-26T23:54:42.1502092+02:00 0HLIJT71FO4DJ:00000001 [INF] Request finished in 3751.138ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-26T23:54:45.9659244+02:00 0HLIJT71FO4DJ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/Events/All   (ca22a1cb)
+2018-11-26T23:54:45.9675098+02:00 0HLIJT71FO4DJ:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:54:45.9690635+02:00 0HLIJT71FO4DJ:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:54:45.9702840+02:00 0HLIJT71FO4DJ:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:54:45.9719331+02:00 0HLIJT71FO4DJ:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:54:45.9774502+02:00 0HLIJT71FO4DJ:00000002 [INF] Route matched with "{action = \"All\", controller = \"Events\"}". Executing action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" (a44c0341)
+2018-11-26T23:54:45.9805550+02:00 0HLIJT71FO4DJ:00000002 [INF] Executing action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-26T23:54:45.9927111+02:00 0HLIJT71FO4DJ:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[End], [e].[Name], [e].[Place], [e].[Start], [e].[TicketPrice], [e].[TotalTickets]
+FROM [Events] AS [e]" (0723d8ff)
+2018-11-26T23:54:46.0283219+02:00 0HLIJT71FO4DJ:00000002 [INF] Executed action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 47.6245ms. (50a9e262)
+2018-11-26T23:54:46.2582472+02:00 0HLIJT71FO4DJ:00000002 [INF] Executing ViewResult, running view "All". (c83d0e25)
+2018-11-26T23:54:46.3000099+02:00 0HLIJT71FO4DJ:00000002 [INF] Executed ViewResult - view "All" executed in 271.3236ms. (f66409e9)
+2018-11-26T23:54:46.3001942+02:00 0HLIJT71FO4DJ:00000002 [INF] Executed action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" in 322.6499ms (afa2e885)
+2018-11-26T23:54:46.3007578+02:00 0HLIJT71FO4DJ:00000002 [INF] Request finished in 334.8299ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-26T23:55:28.4177571+02:00 0HLIJT71FO4DJ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/bootstrap.min.css   (ca22a1cb)
+2018-11-26T23:55:28.4185568+02:00 0HLIJT71FO4DJ:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:55:28.4225869+02:00 0HLIJT71FO4DJ:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.4240740+02:00 0HLIJT71FO4DJ:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.4270089+02:00 0HLIJT71FO4DJ:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:55:28.4516115+02:00 0HLIJT71FO4DJ:00000003 [INF] Sending file. Request path: '"/css/bootstrap.min.css"'. Physical path: '"C:\Users\Doncho Vasilev\Desktop\zDokka-W\10- 181108-C# Web ASP.NETCore\181122-WANC-12 Ex 5 - Identity\Eventures.Web\Eventures.Web\wwwroot\css\bootstrap.min.css"' (27b0a520)
+2018-11-26T23:55:28.4581760+02:00 0HLIJT71FO4DJ:00000003 [INF] Request finished in 40.4305ms 200 text/css (791a596a)
+2018-11-26T23:55:28.4840739+02:00 0HLIJT71FO4DJ:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/reset-css.css   (ca22a1cb)
+2018-11-26T23:55:28.4847758+02:00 0HLIJT71FO4DJ:00000004 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:55:28.4859094+02:00 0HLIJT71FO4DJ:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.4870829+02:00 0HLIJT71FO4DJ:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.4881024+02:00 0HLIJT71FO4DJ:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:55:28.4895800+02:00 0HLIJT71FO4DJ:00000004 [INF] Sending file. Request path: '"/css/reset-css.css"'. Physical path: '"C:\Users\Doncho Vasilev\Desktop\zDokka-W\10- 181108-C# Web ASP.NETCore\181122-WANC-12 Ex 5 - Identity\Eventures.Web\Eventures.Web\wwwroot\css\reset-css.css"' (27b0a520)
+2018-11-26T23:55:28.4897836+02:00 0HLIJT71FO4DJ:00000004 [INF] Request finished in 5.7468ms 200 text/css (791a596a)
+2018-11-26T23:55:28.5116004+02:00 0HLIJT71FO4DJ:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/site.css   (ca22a1cb)
+2018-11-26T23:55:28.5122893+02:00 0HLIJT71FO4DJ:00000005 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:55:28.5133546+02:00 0HLIJT71FO4DJ:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.5145439+02:00 0HLIJT71FO4DJ:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.5153014+02:00 0HLIJT71FO4DJ:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:55:28.5166164+02:00 0HLIJT71FO4DJ:00000005 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Doncho Vasilev\Desktop\zDokka-W\10- 181108-C# Web ASP.NETCore\181122-WANC-12 Ex 5 - Identity\Eventures.Web\Eventures.Web\wwwroot\css\site.css"' (27b0a520)
+2018-11-26T23:55:28.5167369+02:00 0HLIJT71FO4DJ:00000005 [INF] Request finished in 5.193ms 200 text/css (791a596a)
+2018-11-26T23:55:28.5301944+02:00 0HLIJT71FO4DJ:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2018-11-26T23:55:28.5308012+02:00 0HLIJT71FO4DJ:00000006 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:55:28.5317544+02:00 0HLIJT71FO4DJ:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.5325973+02:00 0HLIJT71FO4DJ:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.5332688+02:00 0HLIJT71FO4DJ:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:55:28.5372725+02:00 0HLIJT71FO4DJ:00000006 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Doncho Vasilev\Desktop\zDokka-W\10- 181108-C# Web ASP.NETCore\181122-WANC-12 Ex 5 - Identity\Eventures.Web\Eventures.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2018-11-26T23:55:28.5374363+02:00 0HLIJT71FO4DJ:00000006 [INF] Request finished in 7.2513ms 200 text/css (791a596a)
+2018-11-26T23:55:28.8138781+02:00 0HLIJT71FO4DJ:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2018-11-26T23:55:28.8145546+02:00 0HLIJT71FO4DJ:00000007 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:55:28.8158658+02:00 0HLIJT71FO4DJ:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.8173349+02:00 0HLIJT71FO4DJ:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.8182663+02:00 0HLIJT71FO4DJ:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:55:28.8214792+02:00 0HLIJT71FO4DJ:00000007 [INF] The file "/lib/bootstrap/dist/css/bootstrap.css.map" was not modified (f1f8d725)
+2018-11-26T23:55:28.8232724+02:00 0HLIJT71FO4DK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/bootstrap.min.css.map   (ca22a1cb)
+2018-11-26T23:55:28.8254120+02:00 0HLIJT71FO4DK:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:55:28.8275272+02:00 0HLIJT71FO4DJ:00000007 [INF] Request finished in 13.5883ms 304 text/plain (791a596a)
+2018-11-26T23:55:28.8282965+02:00 0HLIJT71FO4DK:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.8297672+02:00 0HLIJT71FO4DK:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:55:28.8308017+02:00 0HLIJT71FO4DK:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:55:28.8318631+02:00 0HLIJT71FO4DK:00000001 [INF] Request finished in 8.5915ms 404  (791a596a)
+2018-11-26T23:56:50.3536040+02:00 0HLIJT88Q2O6R:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/Events/All   (ca22a1cb)
+2018-11-26T23:56:50.7653076+02:00 0HLIJT88Q2O6R:00000001 [WRN] No type was specified for the decimal column '"TicketPrice"' on entity type '"Event"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-11-26T23:56:50.7987998+02:00 0HLIJT88Q2O6R:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:56:51.7729554+02:00 0HLIJT88Q2O6R:00000001 [INF] Executed DbCommand ("17"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:51.8207291+02:00 0HLIJT88Q2O6R:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:51.8486341+02:00 0HLIJT88Q2O6R:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:56:51.9536559+02:00 0HLIJT88Q2O6R:00000001 [INF] Route matched with "{action = \"All\", controller = \"Events\"}". Executing action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" (a44c0341)
+2018-11-26T23:56:51.9656932+02:00 0HLIJT88Q2O6R:00000001 [INF] Executing action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-26T23:56:51.9744570+02:00 0HLIJT88Q2O6R:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[End], [e].[Name], [e].[Place], [e].[Start], [e].[TicketPrice], [e].[TotalTickets]
+FROM [Events] AS [e]" (0723d8ff)
+2018-11-26T23:56:52.0015315+02:00 0HLIJT88Q2O6R:00000001 [INF] Executed action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 32.4474ms. (50a9e262)
+2018-11-26T23:56:53.5923250+02:00 0HLIJT88Q2O6R:00000001 [INF] Executing ViewResult, running view "All". (c83d0e25)
+2018-11-26T23:56:54.0900373+02:00 0HLIJT88Q2O6R:00000001 [INF] Executed ViewResult - view "All" executed in 2079.9013ms. (f66409e9)
+2018-11-26T23:56:54.0904187+02:00 0HLIJT88Q2O6R:00000001 [INF] Executed action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" in 2136.3753ms (afa2e885)
+2018-11-26T23:56:54.1012872+02:00 0HLIJT88Q2O6R:00000001 [INF] Request finished in 3752.8174ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-26T23:56:54.1607911+02:00 0HLIJT88Q2O6S:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/site.css   (ca22a1cb)
+2018-11-26T23:56:54.1608980+02:00 0HLIJT88Q2O6T:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/reset-css.css   (ca22a1cb)
+2018-11-26T23:56:54.1610477+02:00 0HLIJT88Q2O6V:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/jquery/dist/jquery.js   (ca22a1cb)
+2018-11-26T23:56:54.1613864+02:00 0HLIJT88Q2O70:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/bootstrap.min.css   (ca22a1cb)
+2018-11-26T23:56:54.1616875+02:00 0HLIJT88Q2O6U:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/style.css   (ca22a1cb)
+2018-11-26T23:56:54.1624867+02:00 0HLIJT88Q2O6S:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:56:54.1624824+02:00 0HLIJT88Q2O6U:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:56:54.1624901+02:00 0HLIJT88Q2O6T:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:56:54.1630071+02:00 0HLIJT88Q2O6V:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:56:54.1634322+02:00 0HLIJT88Q2O70:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:56:54.1634656+02:00 0HLIJT88Q2O6R:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2018-11-26T23:56:54.1636490+02:00 0HLIJT88Q2O71:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2018-11-26T23:56:54.1637059+02:00 0HLIJT88Q2O72:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2018-11-26T23:56:54.1640707+02:00 0HLIJT88Q2O6R:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:56:54.1641370+02:00 0HLIJT88Q2O71:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:56:54.1641503+02:00 0HLIJT88Q2O72:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:56:54.1684474+02:00 0HLIJT88Q2O6U:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1800009+02:00 0HLIJT88Q2O6U:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1814870+02:00 0HLIJT88Q2O6U:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:56:54.1868165+02:00 0HLIJT88Q2O6S:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1884488+02:00 0HLIJT88Q2O6T:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1889120+02:00 0HLIJT88Q2O6V:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1893255+02:00 0HLIJT88Q2O70:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1896420+02:00 0HLIJT88Q2O6S:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1906354+02:00 0HLIJT88Q2O6S:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:56:54.1912846+02:00 0HLIJT88Q2O6T:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1916348+02:00 0HLIJT88Q2O6V:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1919432+02:00 0HLIJT88Q2O70:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1921810+02:00 0HLIJT88Q2O6U:00000001 [INF] The file "/css/style.css" was not modified (f1f8d725)
+2018-11-26T23:56:54.1921814+02:00 0HLIJT88Q2O6S:00000001 [INF] The file "/css/site.css" was not modified (f1f8d725)
+2018-11-26T23:56:54.1927775+02:00 0HLIJT88Q2O6T:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:56:54.1929533+02:00 0HLIJT88Q2O6V:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:56:54.1931149+02:00 0HLIJT88Q2O6T:00000001 [INF] The file "/css/reset-css.css" was not modified (f1f8d725)
+2018-11-26T23:56:54.1933540+02:00 0HLIJT88Q2O6V:00000001 [INF] The file "/lib/jquery/dist/jquery.js" was not modified (f1f8d725)
+2018-11-26T23:56:54.1942675+02:00 0HLIJT88Q2O72:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1947362+02:00 0HLIJT88Q2O6R:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1950813+02:00 0HLIJT88Q2O71:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1965567+02:00 0HLIJT88Q2O6T:00000001 [INF] Request finished in 35.6305ms 304 text/css (791a596a)
+2018-11-26T23:56:54.1965567+02:00 0HLIJT88Q2O6V:00000001 [INF] Request finished in 35.5077ms 304 application/javascript (791a596a)
+2018-11-26T23:56:54.1965584+02:00 0HLIJT88Q2O6S:00000001 [INF] Request finished in 35.8708ms 304 text/css (791a596a)
+2018-11-26T23:56:54.1965567+02:00 0HLIJT88Q2O6U:00000001 [INF] Request finished in 35.8687ms 304 text/css (791a596a)
+2018-11-26T23:56:54.1967825+02:00 0HLIJT88Q2O71:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1968061+02:00 0HLIJT88Q2O72:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1970939+02:00 0HLIJT88Q2O6R:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.1987890+02:00 0HLIJT88Q2O72:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:56:54.1988224+02:00 0HLIJT88Q2O71:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:56:54.1988207+02:00 0HLIJT88Q2O6R:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:56:54.1991158+02:00 0HLIJT88Q2O71:00000001 [INF] The file "/js/site.js" was not modified (f1f8d725)
+2018-11-26T23:56:54.1991158+02:00 0HLIJT88Q2O6R:00000002 [INF] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified (f1f8d725)
+2018-11-26T23:56:54.1992347+02:00 0HLIJT88Q2O72:00000001 [INF] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified (f1f8d725)
+2018-11-26T23:56:54.1992706+02:00 0HLIJT88Q2O71:00000001 [INF] Request finished in 35.6878ms 304 application/javascript (791a596a)
+2018-11-26T23:56:54.1992706+02:00 0HLIJT88Q2O6R:00000002 [INF] Request finished in 35.828ms 304 text/css (791a596a)
+2018-11-26T23:56:54.1993373+02:00 0HLIJT88Q2O72:00000001 [INF] Request finished in 35.6702ms 304 application/javascript (791a596a)
+2018-11-26T23:56:54.2055473+02:00 0HLIJT88Q2O70:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:56:54.2059536+02:00 0HLIJT88Q2O70:00000001 [INF] The file "/css/bootstrap.min.css" was not modified (f1f8d725)
+2018-11-26T23:56:54.2061439+02:00 0HLIJT88Q2O70:00000001 [INF] Request finished in 44.8349ms 304 text/css (791a596a)
+2018-11-26T23:56:54.3114818+02:00 0HLIJT88Q2O6V:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/favicon.ico   (ca22a1cb)
+2018-11-26T23:56:54.3122015+02:00 0HLIJT88Q2O6V:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:56:54.3132783+02:00 0HLIJT88Q2O6V:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.3143877+02:00 0HLIJT88Q2O6V:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:56:54.3151245+02:00 0HLIJT88Q2O6V:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:56:54.3154234+02:00 0HLIJT88Q2O6V:00000002 [INF] The file "/favicon.ico" was not modified (f1f8d725)
+2018-11-26T23:56:54.3155449+02:00 0HLIJT88Q2O6V:00000002 [INF] Request finished in 4.093ms 304 image/x-icon (791a596a)
+2018-11-26T23:58:55.7878001+02:00 0HLIJT9E6A77L:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/Events/All   (ca22a1cb)
+2018-11-26T23:58:56.4469338+02:00 0HLIJT9E6A77L:00000001 [WRN] No type was specified for the decimal column '"TicketPrice"' on entity type '"Event"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-11-26T23:58:56.4906748+02:00 0HLIJT9E6A77L:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:58:57.4989550+02:00 0HLIJT9E6A77L:00000001 [INF] Executed DbCommand ("18"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:57.5408186+02:00 0HLIJT9E6A77L:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:57.5670472+02:00 0HLIJT9E6A77L:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:58:57.6843833+02:00 0HLIJT9E6A77L:00000001 [INF] Route matched with "{action = \"All\", controller = \"Events\"}". Executing action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" (a44c0341)
+2018-11-26T23:58:57.6973177+02:00 0HLIJT9E6A77L:00000001 [INF] Executing action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-26T23:58:57.7083744+02:00 0HLIJT9E6A77L:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[End], [e].[Name], [e].[Place], [e].[Start], [e].[TicketPrice], [e].[TotalTickets]
+FROM [Events] AS [e]" (0723d8ff)
+2018-11-26T23:58:57.7375468+02:00 0HLIJT9E6A77L:00000001 [INF] Executed action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 36.706ms. (50a9e262)
+2018-11-26T23:58:59.2997773+02:00 0HLIJT9E6A77L:00000001 [INF] Executing ViewResult, running view "All". (c83d0e25)
+2018-11-26T23:58:59.8253217+02:00 0HLIJT9E6A77L:00000001 [INF] Executed ViewResult - view "All" executed in 2078.1338ms. (f66409e9)
+2018-11-26T23:58:59.8256737+02:00 0HLIJT9E6A77L:00000001 [INF] Executed action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" in 2140.9675ms (afa2e885)
+2018-11-26T23:58:59.8340425+02:00 0HLIJT9E6A77L:00000001 [INF] Request finished in 4051.3793ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-26T23:58:59.8675352+02:00 0HLIJT9E6A77N:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/reset-css.css   (ca22a1cb)
+2018-11-26T23:58:59.8679321+02:00 0HLIJT9E6A77O:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/bootstrap.min.css   (ca22a1cb)
+2018-11-26T23:58:59.8681566+02:00 0HLIJT9E6A77L:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2018-11-26T23:58:59.8681818+02:00 0HLIJT9E6A77M:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/site.css   (ca22a1cb)
+2018-11-26T23:58:59.8693630+02:00 0HLIJT9E6A77L:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:58:59.8693630+02:00 0HLIJT9E6A77M:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:58:59.8693737+02:00 0HLIJT9E6A77N:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:58:59.8694378+02:00 0HLIJT9E6A77O:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:58:59.8743464+02:00 0HLIJT9E6A77N:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.8838729+02:00 0HLIJT9E6A77Q:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2018-11-26T23:58:59.8838989+02:00 0HLIJT9E6A77P:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/jquery/dist/jquery.js   (ca22a1cb)
+2018-11-26T23:58:59.8842312+02:00 0HLIJT9E6A77N:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.8846482+02:00 0HLIJT9E6A77Q:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:58:59.8846482+02:00 0HLIJT9E6A77P:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:58:59.8893644+02:00 0HLIJT9E6A77R:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/style.css   (ca22a1cb)
+2018-11-26T23:58:59.8901217+02:00 0HLIJT9E6A77Q:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.8903920+02:00 0HLIJT9E6A77R:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:58:59.8926847+02:00 0HLIJT9E6A77S:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2018-11-26T23:58:59.8934763+02:00 0HLIJT9E6A77N:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:58:59.8934553+02:00 0HLIJT9E6A77S:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:58:59.9074949+02:00 0HLIJT9E6A77N:00000001 [INF] The file "/css/reset-css.css" was not modified (f1f8d725)
+2018-11-26T23:58:59.9118470+02:00 0HLIJT9E6A77N:00000001 [INF] Request finished in 44.459ms 304 text/css (791a596a)
+2018-11-26T23:58:59.9120745+02:00 0HLIJT9E6A77S:00000001 [INF] Executed DbCommand ("18"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9136069+02:00 0HLIJT9E6A77O:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9139687+02:00 0HLIJT9E6A77L:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9142030+02:00 0HLIJT9E6A77S:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9143886+02:00 0HLIJT9E6A77M:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9155981+02:00 0HLIJT9E6A77S:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:58:59.9162015+02:00 0HLIJT9E6A77S:00000001 [INF] The file "/js/site.js" was not modified (f1f8d725)
+2018-11-26T23:58:59.9164055+02:00 0HLIJT9E6A77S:00000001 [INF] Request finished in 23.8494ms 304 application/javascript (791a596a)
+2018-11-26T23:58:59.9165629+02:00 0HLIJT9E6A77O:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9178479+02:00 0HLIJT9E6A77M:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9216207+02:00 0HLIJT9E6A77L:00000002 [INF] Executed DbCommand ("7"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9230209+02:00 0HLIJT9E6A77M:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:58:59.9235542+02:00 0HLIJT9E6A77M:00000001 [INF] The file "/css/site.css" was not modified (f1f8d725)
+2018-11-26T23:58:59.9237397+02:00 0HLIJT9E6A77L:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:58:59.9238363+02:00 0HLIJT9E6A77M:00000001 [INF] Request finished in 55.6524ms 304 text/css (791a596a)
+2018-11-26T23:58:59.9241810+02:00 0HLIJT9E6A77L:00000002 [INF] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified (f1f8d725)
+2018-11-26T23:58:59.9243089+02:00 0HLIJT9E6A77L:00000002 [INF] Request finished in 56.1887ms 304 text/css (791a596a)
+2018-11-26T23:58:59.9253131+02:00 0HLIJT9E6A77O:00000001 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:58:59.9257476+02:00 0HLIJT9E6A77O:00000001 [INF] The file "/css/bootstrap.min.css" was not modified (f1f8d725)
+2018-11-26T23:58:59.9259323+02:00 0HLIJT9E6A77O:00000001 [INF] Request finished in 58.0272ms 304 text/css (791a596a)
+2018-11-26T23:58:59.9321675+02:00 0HLIJT9E6A77Q:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9336241+02:00 0HLIJT9E6A77Q:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:58:59.9341954+02:00 0HLIJT9E6A77Q:00000001 [INF] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified (f1f8d725)
+2018-11-26T23:58:59.9344067+02:00 0HLIJT9E6A77Q:00000001 [INF] Request finished in 50.6001ms 304 application/javascript (791a596a)
+2018-11-26T23:58:59.9349511+02:00 0HLIJT9E6A77P:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9370522+02:00 0HLIJT9E6A77R:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9439610+02:00 0HLIJT9E6A77P:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9443655+02:00 0HLIJT9E6A77R:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:58:59.9483936+02:00 0HLIJT9E6A77R:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:58:59.9486117+02:00 0HLIJT9E6A77P:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:58:59.9489303+02:00 0HLIJT9E6A77R:00000001 [INF] The file "/css/style.css" was not modified (f1f8d725)
+2018-11-26T23:58:59.9490364+02:00 0HLIJT9E6A77P:00000001 [INF] The file "/lib/jquery/dist/jquery.js" was not modified (f1f8d725)
+2018-11-26T23:58:59.9490984+02:00 0HLIJT9E6A77R:00000001 [INF] Request finished in 59.8973ms 304 text/css (791a596a)
+2018-11-26T23:58:59.9491471+02:00 0HLIJT9E6A77P:00000001 [INF] Request finished in 65.5458ms 304 application/javascript (791a596a)
+2018-11-26T23:59:00.0457390+02:00 0HLIJT9E6A77N:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/favicon.ico   (ca22a1cb)
+2018-11-26T23:59:00.0466952+02:00 0HLIJT9E6A77N:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:00.0489131+02:00 0HLIJT9E6A77N:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:00.0522774+02:00 0HLIJT9E6A77N:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:00.0571942+02:00 0HLIJT9E6A77N:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:00.0576227+02:00 0HLIJT9E6A77N:00000002 [INF] The file "/favicon.ico" was not modified (f1f8d725)
+2018-11-26T23:59:00.0578181+02:00 0HLIJT9E6A77N:00000002 [INF] Request finished in 12.1787ms 304 image/x-icon (791a596a)
+2018-11-26T23:59:47.8369274+02:00 0HLIJT9TMPHUE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/Events/All   (ca22a1cb)
+2018-11-26T23:59:48.2928172+02:00 0HLIJT9TMPHUE:00000001 [WRN] No type was specified for the decimal column '"TicketPrice"' on entity type '"Event"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'. (b5b4253a)
+2018-11-26T23:59:48.3282591+02:00 0HLIJT9TMPHUE:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:49.4311333+02:00 0HLIJT9TMPHUE:00000001 [INF] Executed DbCommand ("18"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:49.4740638+02:00 0HLIJT9TMPHUE:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:49.5026269+02:00 0HLIJT9TMPHUE:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:49.6038465+02:00 0HLIJT9TMPHUE:00000001 [INF] Route matched with "{action = \"All\", controller = \"Events\"}". Executing action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" (a44c0341)
+2018-11-26T23:59:49.6169818+02:00 0HLIJT9TMPHUE:00000001 [INF] Executing action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" - Validation state: Valid (dad538d7)
+2018-11-26T23:59:49.6267726+02:00 0HLIJT9TMPHUE:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[End], [e].[Name], [e].[Place], [e].[Start], [e].[TicketPrice], [e].[TotalTickets]
+FROM [Events] AS [e]" (0723d8ff)
+2018-11-26T23:59:49.6586021+02:00 0HLIJT9TMPHUE:00000001 [INF] Executed action method "Eventures.Web.Controllers.EventsController.All (Eventures.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 37.7525ms. (50a9e262)
+2018-11-26T23:59:51.3764683+02:00 0HLIJT9TMPHUE:00000001 [INF] Executing ViewResult, running view "All". (c83d0e25)
+2018-11-26T23:59:51.8961397+02:00 0HLIJT9TMPHUE:00000001 [INF] Executed ViewResult - view "All" executed in 2223.262ms. (f66409e9)
+2018-11-26T23:59:51.8964382+02:00 0HLIJT9TMPHUE:00000001 [INF] Executed action "Eventures.Web.Controllers.EventsController.All (Eventures.Web)" in 2292.2034ms (afa2e885)
+2018-11-26T23:59:51.9068204+02:00 0HLIJT9TMPHUE:00000001 [INF] Request finished in 4075.6782ms 200 text/html; charset=utf-8 (791a596a)
+2018-11-26T23:59:51.9327295+02:00 0HLIJT9TMPHUE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2018-11-26T23:59:51.9397400+02:00 0HLIJT9TMPHUE:00000002 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:51.9471204+02:00 0HLIJT9TMPHUE:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:51.9500794+02:00 0HLIJT9TMPHUG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/style.css   (ca22a1cb)
+2018-11-26T23:59:51.9507282+02:00 0HLIJT9TMPHUH:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/site.css   (ca22a1cb)
+2018-11-26T23:59:51.9507487+02:00 0HLIJT9TMPHUG:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:51.9516100+02:00 0HLIJT9TMPHUH:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:51.9590422+02:00 0HLIJT9TMPHUF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/bootstrap.min.css   (ca22a1cb)
+2018-11-26T23:59:51.9603042+02:00 0HLIJT9TMPHUF:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:51.9618228+02:00 0HLIJT9TMPHUI:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/css/reset-css.css   (ca22a1cb)
+2018-11-26T23:59:51.9626546+02:00 0HLIJT9TMPHUI:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:51.9636361+02:00 0HLIJT9TMPHUE:00000002 [INF] Executed DbCommand ("13"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:51.9653796+02:00 0HLIJT9TMPHUL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2018-11-26T23:59:51.9654938+02:00 0HLIJT9TMPHUK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/jquery/dist/jquery.js   (ca22a1cb)
+2018-11-26T23:59:51.9659600+02:00 0HLIJT9TMPHUL:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:51.9659651+02:00 0HLIJT9TMPHUK:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:51.9705906+02:00 0HLIJT9TMPHUJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44391/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2018-11-26T23:59:51.9714373+02:00 0HLIJT9TMPHUJ:00000001 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:51.9761334+02:00 0HLIJT9TMPHUE:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:51.9855923+02:00 0HLIJT9TMPHUE:00000002 [INF] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified (f1f8d725)
+2018-11-26T23:59:51.9912917+02:00 0HLIJT9TMPHUE:00000002 [INF] Request finished in 58.5237ms 304 text/css (791a596a)
+2018-11-26T23:59:51.9938008+02:00 0HLIJT9TMPHUL:00000001 [INF] Executed DbCommand ("27"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:51.9950589+02:00 0HLIJT9TMPHUG:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:51.9954904+02:00 0HLIJT9TMPHUH:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:51.9958501+02:00 0HLIJT9TMPHUF:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:51.9961827+02:00 0HLIJT9TMPHUL:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:51.9964778+02:00 0HLIJT9TMPHUI:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:51.9968058+02:00 0HLIJT9TMPHUK:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:51.9975321+02:00 0HLIJT9TMPHUL:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:51.9980632+02:00 0HLIJT9TMPHUL:00000001 [INF] The file "/js/site.js" was not modified (f1f8d725)
+2018-11-26T23:59:51.9983386+02:00 0HLIJT9TMPHUL:00000001 [INF] Request finished in 33.0325ms 304 application/javascript (791a596a)
+2018-11-26T23:59:51.9983613+02:00 0HLIJT9TMPHUF:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:52.0004584+02:00 0HLIJT9TMPHUI:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:52.0017021+02:00 0HLIJT9TMPHUG:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:52.0023171+02:00 0HLIJT9TMPHUH:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:52.0060252+02:00 0HLIJT9TMPHUK:00000001 [INF] Executed DbCommand ("8"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:52.0064939+02:00 0HLIJT9TMPHUF:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:52.0064952+02:00 0HLIJT9TMPHUJ:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:52.0068472+02:00 0HLIJT9TMPHUF:00000001 [INF] The file "/css/bootstrap.min.css" was not modified (f1f8d725)
+2018-11-26T23:59:52.0069875+02:00 0HLIJT9TMPHUF:00000001 [INF] Request finished in 48.0466ms 304 text/css (791a596a)
+2018-11-26T23:59:52.0093417+02:00 0HLIJT9TMPHUG:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:52.0093896+02:00 0HLIJT9TMPHUH:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:52.0097035+02:00 0HLIJT9TMPHUH:00000001 [INF] The file "/css/site.css" was not modified (f1f8d725)
+2018-11-26T23:59:52.0098767+02:00 0HLIJT9TMPHUH:00000001 [INF] Request finished in 59.1596ms 304 text/css (791a596a)
+2018-11-26T23:59:52.0100366+02:00 0HLIJT9TMPHUJ:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:52.0101059+02:00 0HLIJT9TMPHUG:00000001 [INF] The file "/css/style.css" was not modified (f1f8d725)
+2018-11-26T23:59:52.0103052+02:00 0HLIJT9TMPHUG:00000001 [INF] Request finished in 60.2873ms 304 text/css (791a596a)
+2018-11-26T23:59:52.0111178+02:00 0HLIJT9TMPHUI:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:52.0114047+02:00 0HLIJT9TMPHUI:00000001 [INF] The file "/css/reset-css.css" was not modified (f1f8d725)
+2018-11-26T23:59:52.0115274+02:00 0HLIJT9TMPHUI:00000001 [INF] Request finished in 49.8106ms 304 text/css (791a596a)
+2018-11-26T23:59:52.0138479+02:00 0HLIJT9TMPHUK:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:52.0144693+02:00 0HLIJT9TMPHUK:00000001 [INF] The file "/lib/jquery/dist/jquery.js" was not modified (f1f8d725)
+2018-11-26T23:59:52.0146434+02:00 0HLIJT9TMPHUK:00000001 [INF] Request finished in 49.1589ms 304 application/javascript (791a596a)
+2018-11-26T23:59:52.0184084+02:00 0HLIJT9TMPHUJ:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:52.0189503+02:00 0HLIJT9TMPHUJ:00000001 [INF] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified (f1f8d725)
+2018-11-26T23:59:52.0191316+02:00 0HLIJT9TMPHUJ:00000001 [INF] Request finished in 48.5987ms 304 application/javascript (791a596a)
+2018-11-26T23:59:52.1117356+02:00 0HLIJT9TMPHUE:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44391/favicon.ico   (ca22a1cb)
+2018-11-26T23:59:52.1125870+02:00 0HLIJT9TMPHUE:00000003 [INF] Entity Framework Core "2.1.4-rtm-31024" initialized '"EventuresDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies " (9958f5bb)
+2018-11-26T23:59:52.1139214+02:00 0HLIJT9TMPHUE:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:52.1149285+02:00 0HLIJT9TMPHUE:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2018-11-26T23:59:52.1155605+02:00 0HLIJT9TMPHUE:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-11-26T23:59:52.1158740+02:00 0HLIJT9TMPHUE:00000003 [INF] The file "/favicon.ico" was not modified (f1f8d725)
+2018-11-26T23:59:52.1160771+02:00 0HLIJT9TMPHUE:00000003 [INF] Request finished in 4.3838ms 304 image/x-icon (791a596a)
